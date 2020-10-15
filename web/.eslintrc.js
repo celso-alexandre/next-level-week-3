@@ -49,6 +49,8 @@ module.exports = {
         "tsx": "never"
       }
    ],
-   "no-use-before-define": "off",   
+   "no-use-before-define": "off",  
+   "jsx-a11y/label-has-associated-control": "off",
+   "max-len": "off",
   },
 };
