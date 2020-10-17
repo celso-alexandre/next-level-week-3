@@ -1,3 +1,5 @@
+const { off } = require('process');
+
 module.exports = {
   env: {
     browser: true,
@@ -52,5 +54,7 @@ module.exports = {
    "no-use-before-define": "off",  
    "jsx-a11y/label-has-associated-control": "off",
    "max-len": "off",
+   "camelcase": "off",
+   "no-alert": "off"
   },
 };

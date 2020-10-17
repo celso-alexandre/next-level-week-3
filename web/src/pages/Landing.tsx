@@ -5,7 +5,7 @@ import '../styles/pages/landing.css';
 import { Link } from 'react-router-dom';
 import logoImg from '../images/logo.svg';
 
-const Landing: React.FC = () => (
+const Landing: React.FunctionComponent = () => (
   <div id="page-landing">
     <div className="content-wrapper">
       <img src={logoImg} alt="Logo" />
