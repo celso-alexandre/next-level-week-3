@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     es2021: true,
+    browser: true,
   },
   extends: [
     'plugin:react/recommended',
@@ -47,5 +48,7 @@ module.exports = {
     'react/style-prop-object': 'off',
     'no-use-before-define': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'react/require-default-props': 'off',
+    'no-alert': 'off',
   },
 };
